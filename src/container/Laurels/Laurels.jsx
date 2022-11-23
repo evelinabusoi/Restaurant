@@ -27,7 +27,7 @@ const AwardCard = ({ award: { imgUrl, title, subtitle } }) => {
 
 const Laurels = () => (
   <div
-    className='flex justify-center items-center relative py-16 px-8 sm:flex-col 
+    className='flex justify-center items-center relative py-16 px-8 sm:flex-col md:flex-col
     bg-[url("./assets/bg.png")] bg-center bg-cover bg-repeat bg-fixed'
     id='awards'>
     <div className='flex-1 w-full flex justify-center items-start flex-col'>

@@ -24,17 +24,17 @@ const Gallery = () => {
   return (
     <div
       className='flex justify-center items-center xl:flex-row bg-black
-    pt-16 pr-0 pb-16 pl-24 sm:pl-8 md:pl-16 sm:flex-col  '>
+    pt-16 pr-0 pb-16 pl-24 sm:pl-8 md:pl-8 sm:flex-col'>
       <div
         className='flex-1 flex justify-center items-start flex-col 
-      min-w-[500px] 2xl:pr-8 sm:min-w-full '>
+      xl:min-w-[500px] 2xl:pr-8 sm:min-w-full '>
         <SubHeading title='Instagram' />
-        <h1 className='font-base text-[#DCCA87] text-[64px] leading-[83.2px] tracking-wider'>
+        <h1 className='font-base text-[#DCCA87] text-[64px] sm:text-5xl leading-[83.2px] tracking-wider'>
           Photo Gallery
         </h1>
         <p
           className='first-letter:font-alt text-[#AAAAAA] font-normal tracking-wider
-           capitalize leading-7 text-[16px] mt-8'>
+           capitalize leading-7 text-[16px] sm:text-sm mt-8 mr-4'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
           mattis ipsum turpis elit elit scelerisque egestas mu.
         </p>
@@ -45,7 +45,7 @@ const Gallery = () => {
           View More
         </button>
       </div>
-      <div className='flex-1 flex flex-row max-w-1/2 relative sm:max-w-full sm:my-20 sm:mx-0'>
+      <div className='flex-1 flex flex-row max-w-1/2 relative sm:max-w-full sm:my-20 sm:mx-0 '>
         <div
           className='flex flex-row w-max overflow-x-scroll scrollbar-hide sm:min-w-240px sm:h-[320px]'
           ref={scrollRef}>

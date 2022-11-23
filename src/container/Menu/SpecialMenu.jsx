@@ -16,7 +16,7 @@ const SpecialMenu = () => {
       </div>
       <div
         className='w-full my-8 mx-0 flex sm:items-center
-      sm:flex-col justify-center 2xl:items-start 2xl:flex-row'>
+      sm:flex-col md:flex-col justify-center 2xl:items-start 2xl:flex-row'>
         <div className='flex flex-1 w-full flex-col justify-center items-center'>
           <p
             className='font-base font-semibold sm:text-[35px] text-[45px] 
@@ -34,12 +34,12 @@ const SpecialMenu = () => {
             ))}
           </div>
         </div>
-        <div className='w-[410px] my-0 mx-8 sm:w-full lg:my-12 md:w-[650px] '>
+        <div className='w-[410px] my-0 mx-24 md:mx-auto sm:w-full lg:my-12 md:w-[650px] text-center'>
           <img src={images.menu} alt='menu__img' className='w-full h-auto' />
         </div>
         <div className='flex flex-1 w-full flex-col justify-center items-center'>
           <p
-            className='sm:mt-16 font-base font-semibold sm:text-[35px] text-[45px]  
+            className='sm:mt-16 md:mt-16 font-base font-semibold sm:text-[35px] text-[45px]  
           leading-[48.5px] md:leading-[58.5px] tracking-wider text-white'>
             Cocktails
           </p>

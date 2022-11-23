@@ -33,7 +33,7 @@ const AboutUs = () => (
         <img
           src={images.knife}
           alt='about_knife'
-          className='lg:h-[1110px] h-[700px]'
+          className='sm:h-[500px] h-[700px]'
         />
       </div>
       <div className='flex-1 flex justify-start items-start flex-col text-left'>
